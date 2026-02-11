@@ -10,7 +10,7 @@ const IMAGES = [
   'pic1.jpg', 
   'pic2.jpg',
   'pic3.jpg',
-  'pic4.jpe',
+  'pic4.jpg',
   'pic5.jpg',
   'pic6.jpg',
   'pic7.jpg',
@@ -97,7 +97,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ onComplete }) => {
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/90 backdrop-blur-lg rounded-xl border-2 border-[#00cfeb] z-20 animate-bounceIn">
              <div className="relative mb-6">
                 <div className="absolute inset-0 bg-blue-500/20 blur-2xl rounded-full"></div>
-                <img src="/key.png" className="w-32 h-32 object-contain relative z-10 drop-shadow-[0_0_20px_#00cfeb]" style={{ mixBlendMode: 'screen' }} />
+                <img src="key.png" className="w-32 h-32 object-contain relative z-10 drop-shadow-[0_0_20px_#00cfeb]" style={{ mixBlendMode: 'screen' }} />
              </div>
              <h4 className="text-3xl font-lol text-[#00cfeb] tracking-widest animate-pulse">KEY FRAGMENT FOUND</h4>
              <p className="text-xs text-blue-300 uppercase mt-2 tracking-[0.3em]">Progressing to the Forge...</p>
