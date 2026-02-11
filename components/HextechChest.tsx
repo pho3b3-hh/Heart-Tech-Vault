@@ -10,7 +10,7 @@ const LOOT_POOL: LootItem[] = [
     type: 'Shard', 
     rarity: 'Epic', 
     description: 'One Full-Body Massage Session (Valid for 1 Year)',
-    image: '/prize-massage.jpg' 
+    image: 'prize-massage.jpg' 
   },
   { 
     id: 'h1', 
@@ -18,7 +18,7 @@ const LOOT_POOL: LootItem[] = [
     type: 'Shard', 
     rarity: 'Epic', 
     description: 'Any takeout dinner of your choice - Summoner’s Pick',
-    image: '/prize-dinner.jpg'
+    image: 'prize-dinner.jpg'
   },
   { 
     id: 'p1', 
@@ -26,7 +26,7 @@ const LOOT_POOL: LootItem[] = [
     type: 'Shard', 
     rarity: 'Legendary', 
     description: 'One "Get Out of Chores" Card (Stackable x3)',
-    image: '/prize-chores.jpg'
+    image: 'prize-chores.jpg'
   },
 ];
 
@@ -36,7 +36,7 @@ const GRAND_PRIZE: LootItem = {
   type: 'Permanent',
   rarity: 'Ultimate',
   description: '1,380 RP (or equivalent cash!)',
-  image: '/bigprize.jpg'
+  image: 'bigprize.jpg'
 };
 
 interface HextechChestProps {
