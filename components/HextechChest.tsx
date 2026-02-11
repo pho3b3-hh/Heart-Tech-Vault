@@ -96,7 +96,7 @@ const HextechChest: React.FC<HextechChestProps> = ({ hasKey, onClaim }) => {
               {/* Chest Visual Container - 20% larger */}
               <div className="relative w-80 h-80 bg-white rounded-3xl flex items-center justify-center border-2 border-[#c89b3c]/40 overflow-hidden shadow-[0_0_80px_rgba(200,155,60,0.25)] group-hover:shadow-[0_0_120px_rgba(200,155,60,0.4)] transition-all">
                 <img 
-                  src="/chest.png" 
+                  src="chest.png" 
                   alt="Hextech Chest"
                   className={`w-full h-full object-contain transition-all duration-700 ${!isOpened ? 'brightness-40 contrast-125' : 'brightness-100'} ${isShaking ? 'scale-110' : 'scale-100'}`}
                   style={{ mixBlendMode: 'multiply' }}
@@ -105,7 +105,7 @@ const HextechChest: React.FC<HextechChestProps> = ({ hasKey, onClaim }) => {
                 {/* Glowing Key */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none">
                    <img 
-                     src="/key.png" 
+                     src="key.png" 
                      alt="Hextech Key"
                      className={`w-24 h-24 object-contain transition-all duration-500 ${hasKey ? 'drop-shadow-[0_0_25px_#00cfeb] opacity-100 scale-110' : 'grayscale opacity-20'}`} 
                      style={{ mixBlendMode: 'screen' }}
