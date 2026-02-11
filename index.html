@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hextech Birthday Crafting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #010a13;
+            color: #f0e6d2;
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+        }
+        .font-lol {
+            font-family: 'Cinzel', serif;
+        }
+        .hextech-gold { color: #c89b3c; }
+        .hextech-blue { color: #00cfeb; }
+        .border-hextech {
+            border: 2px solid #c89b3c;
+            box-shadow: 0 0 15px rgba(200, 155, 60, 0.3), inset 0 0 10px rgba(0, 207, 235, 0.2);
+        }
+        .bg-hextech-gradient {
+            background: linear-gradient(135deg, #091428 0%, #0a1428 100%);
+        }
+        .glow-blue {
+            filter: drop-shadow(0 0 8px rgba(0, 207, 235, 0.8));
+        }
+        .glow-gold {
+            filter: drop-shadow(0 0 8px rgba(200, 155, 60, 0.8));
+        }
+        @keyframes chest-shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        .animate-shake {
+            animation: chest-shake 0.5s infinite;
+        }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Heart-Tech-Vault/assets/index-BbZuqOhh.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
