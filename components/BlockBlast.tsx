@@ -158,7 +158,7 @@ const BlockBlast: React.FC<BlockBlastProps> = ({ onComplete }) => {
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/95 backdrop-blur-xl rounded-lg border-2 border-[#c89b3c] z-40 animate-bounceIn">
              <div className="relative mb-6">
                 <div className="absolute inset-0 bg-yellow-500/20 blur-3xl rounded-full"></div>
-                <img src="/key.png" className="w-40 h-40 object-contain relative z-10 drop-shadow-[0_0_30px_#c89b3c]" style={{ mixBlendMode: 'screen' }} />
+                <img src="key.png" className="w-40 h-40 object-contain relative z-10 drop-shadow-[0_0_30px_#c89b3c]" style={{ mixBlendMode: 'screen' }} />
              </div>
              <h4 className="text-4xl font-lol text-[#c89b3c] tracking-[0.2em] animate-pulse">KEY FORGED</h4>
              <p className="text-sm text-yellow-400 font-bold uppercase mt-2 tracking-widest">Masterwork Protocol: Clear</p>
