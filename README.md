@@ -2,19 +2,29 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+This version is more technical and "behind the scenes," explaining the "Why" and "How" for other developers.
 
-This contains everything you need to run your app locally.
+🛡️ The Heart-Tech Vault: A Study in AI-Driven Invention
+The Vision
+This project explores the intersection of personalized gift-giving and gamified web development. Inspired by the Hextech Crafting system in League of Legends, the application was built to replicate the psychological "thrill of the reroll" for a birthday experience.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1DqkM2Gy1F06O0YyKPxnQcOQ-5u_wiDJf
+The Story
+The goal was to move beyond the standard use of LLMs (simple Q&A) and treat AI as a Full-Stack Partner. The project was born from observing a user’s specific delight in gaming mechanics and translating that into a multi-stage web journey:
 
-## Run Locally
+Stage 1: Memory Lane Lane – A 4x4 matching engine utilizing personal JPEG assets to ground the digital experience in real-world sentiment.
 
-**Prerequisites:**  Node.js
+Stage 2: The Block Forge – A React-based recreation of the "Block Blast" mobile game, requiring a 500-point threshold to "forge" the final key.
 
+Stage 3: Hextech Loot Logic – A complex state-management system that allows users to "Claim" common rewards or "Reroll" them into an Ultimate Grand Prize.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Technical Stack
+Framework: React + Vite
+
+Styling: Tailwind CSS (Custom Hextech UI Palette)
+
+AI Collaborator: Gemini 3 Flash (Vibe Coding methodology)
+
+Deployment: Netlify
+
+Project Reflection
+"People tend to only know about AI resources for information, but often neglect the creativity of invention." This repository serves as proof that with the right prompting and a clear creative vision, the barrier between "Idea" and "App" has officially vanished.
