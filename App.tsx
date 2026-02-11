@@ -55,10 +55,10 @@ const App: React.FC = () => {
         
         <div className="flex gap-3 items-center">
           <div className={`p-1 border-2 border-[#c89b3c] rounded bg-[#091428] shadow-inner transition-all duration-700 ${inventory.keyFragment ? 'shadow-[0_0_10px_#00cfeb] border-[#00cfeb]' : 'opacity-20 grayscale'}`}>
-             <img src="/key.png" className="w-8 h-8 object-contain" alt="Key" style={{ mixBlendMode: 'screen' }} />
+             <img src="key.png" className="w-8 h-8 object-contain" alt="Key" style={{ mixBlendMode: 'screen' }} />
           </div>
           <div className={`p-1 border-2 border-[#c89b3c] rounded bg-[#091428] shadow-inner transition-all duration-700 ${inventory.masterworkKey ? 'shadow-[0_0_10px_#c89b3c]' : 'opacity-20 grayscale'}`}>
-             <img src="/chest.png" className="w-8 h-8 object-contain" alt="Chest" style={{ mixBlendMode: 'screen' }} />
+             <img src="chest.png" className="w-8 h-8 object-contain" alt="Chest" style={{ mixBlendMode: 'screen' }} />
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ const App: React.FC = () => {
         {stage === GameStage.INTRO && (
           <div className="text-center animate-fadeIn flex flex-col items-center">
             <div className="w-32 h-32 border-4 border-[#c89b3c] rounded-full flex items-center justify-center mb-8 shadow-[0_0_30px_rgba(200,155,60,0.3)] bg-[#091428] relative overflow-hidden">
-               <img src="/chest.png" className="w-24 h-24 object-contain brightness-125" style={{ mixBlendMode: 'screen' }} />
+               <img src="chest.png" className="w-24 h-24 object-contain brightness-125" style={{ mixBlendMode: 'screen' }} />
                <div className="absolute inset-0 bg-blue-500/10 animate-pulse pointer-events-none"></div>
             </div>
             <h2 className="text-5xl font-lol text-white mb-6 tracking-wide">SUMMONER, YOUR QUEST AWAITS</h2>
